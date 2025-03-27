@@ -20,7 +20,7 @@ class kkjeerAppTesting:
     ######################################### noqa
     VERSION = "0.0.1"
     GIT_URL = "https://github.com/kkjeer/kkjeerAppTesting.git"
-    GIT_COMMIT_HASH = "HEAD"
+    GIT_COMMIT_HASH = "cf8ff36a0cb70ada202a8ebfe00aa2d1a4051054"
 
     #BEGIN_CLASS_HEADER
     #END_CLASS_HEADER
