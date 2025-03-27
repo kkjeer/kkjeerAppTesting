@@ -1,0 +1,41 @@
+#
+# define display information
+#
+name: Testing KBParallel
+
+tooltip: |
+  Tests running other apps from within this app using KBParallel
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar apps that might be useful to the user
+#
+suggestions:
+  apps:
+    related: [app1, app2]
+    next: [app3, app4]
+
+#
+# Configure the display and description of parameters
+#
+parameters:
+  parameter_1:
+    ui-name: |
+      First parameter
+    short-hint: |
+      The first parameter
+    long-hint: |
+      The first parameter that needs to be entered to drive the method. This might be the first of many.
+  parameter_2:
+    ui-name: |
+      Second parameter
+    short-hint: |
+      The second parameter
+    long-hint: |
+      This is the second parameter. It is currently unused and optional.
+
+description: |
+  <p>Description goes here.</p>
